@@ -1,0 +1,10 @@
+12       20       25       5       62
+15       20       21       4       55
+72       10       15       2       111
+X-DSPAM-Confidence: 0.2344
+X-DSPAM-Confidence: 0.3421
+X-DSPAM-Confidence: 0.6238
+X-DSPAM-Confidence: 0.7657
+X-DSPAM-Confidence: 0.1345
+X-DSPAM-Confidence: 0.2345 
+X-DSPAM-Confidence: 0.6756
