@@ -1,0 +1,12 @@
+import sympy as sp
+t = sp.symbols('t')
+r1 = sp.Matrix([sp.log(t),sp.exp(-t),t**3])
+r2 = sp.Matrix([2*sp.cos(sp.pi*t),2*sp.sin(sp.pi*t),3*t])
+v1 = sp.diff(r1,t).subs(t,2)
+v2 = sp.diff(r2,t).subs(t, 1/3)
+tan1 = r1.subs(t,2) + t*(v1/v1.norm())
+tan2 = r2.subs(t,1/3) + t*(v2/v2.norm())
+print('The tangent line of the curve in (i)')
+print(tan1)
+print('Th tangent line of the curve in (ii)')
+print(tan2)
